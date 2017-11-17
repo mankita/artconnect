@@ -310,7 +310,7 @@ button:focus {
 
 
 .mu-event-register-line {
-    background-color: greenyellow;
+    background-color: #ADFF2F;
     color: yellow;
     border-radius: 1em;
     padding: 20px 20px;
@@ -322,7 +322,7 @@ button:focus {
 
 
 .mu-event-fb-line {
-    background-color: greenyellow;
+    background-color: #ADFF2F;
     color: black;
     padding: 10px 20px;
     display: inline-block;
@@ -334,7 +334,7 @@ button:focus {
 }
 
 .mu-event-email-line{
-    background-color: skyblue;
+    background-color: #87ceeb;
     color: yellow;
     padding: 10px 20px;
     display: inline-block;
