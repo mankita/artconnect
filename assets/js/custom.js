@@ -1,24 +1,3 @@
-/**	
-	* Template Name: Eventoz
-	* Version: 1.0	
-	* Template Scripts
-	* Author: MarkUps
-	* Author URI: http://www.markups.io/
-
-	Custom JS
-	
-	1. FIXED MENU
-	2. EVENT TIME COUNTER
-	3. MENU SMOOTH SCROLLING
-	4. VIDEO POPUP
-	5. SPEAKERS SLIDEER ( SLICK SLIDER )
-	6. BOOTSTRAP ACCORDION 
-	7. MOBILE MENU CLOSE  
-	
-	
-**/
-
-
 
 (function( $ ){
 
@@ -31,10 +10,10 @@
 
 	jQuery(window).bind('scroll', function () {
     if ($(window).scrollTop() > 150) {
-        $('.mu-navbar').addClass('mu-nav-show');
+        $('.ac-navbar').addClass('ac-nav-show');
         
 	    } else {
-	        $('.mu-navbar').removeClass('mu-nav-show');
+	        $('.ac-navbar').removeClass('ac-nav-show');
 	    }
 	});
 
@@ -42,12 +21,12 @@
 	/*  2. EVENT TIME COUNTER
 	/* ----------------------------------------------------------- */
 	
-	$('#mu-event-counter').countdown('2017/12/01').on('update.countdown', function(event) {
+	$('#ac-event-counter').countdown('2017/12/01').on('update.countdown', function(event) {
 	  var $this = $(this).html(event.strftime(''
-	    + '<span class="mu-event-counter-block"><span>%D</span> Days</span> '
-	    + '<span class="mu-event-counter-block"><span>%H</span> Hours</span> '
-	    + '<span class="mu-event-counter-block"><span>%M</span> Mins</span> '
-	    + '<span class="mu-event-counter-block"><span>%S</span> Secs</span>'));
+	    + '<span class="ac-event-counter-block"><span>%D</span> Days</span> '
+	    + '<span class="ac-event-counter-block"><span>%H</span> Hours</span> '
+	    + '<span class="ac-event-counter-block"><span>%M</span> Mins</span> '
+	    + '<span class="ac-event-counter-block"><span>%S</span> Secs</span>'));
 	});
 
 	
@@ -59,7 +38,7 @@
 
 	// Cache selectors
 	var lastId,
-	topMenu = $(".mu-menu"),
+	topMenu = $(".ac-menu"),
 	topMenuHeight = topMenu.outerHeight()+13,
 	// All list items
 	menuItems = topMenu.find('a[href^=\\#]'),
@@ -109,72 +88,72 @@
 	/*  4. VIDEO POPUP
 	/* ----------------------------------------------------------- */
 
-   $('.mu-video-play-btn').on('click', function(event) {
-	   
-        event.preventDefault();
-        
-        $('.mu-video-iframe-area').addClass('mu-video-iframe-display');
-       
-    });
-   
-    // when click the close btn
+//   $('.ac-video-play-btn').on('click', function(event) {
+//	   
+//        event.preventDefault();
+//        
+//        $('.ac-video-iframe-area').addClass('ac-video-iframe-display');
+//       
+//    });
+//   
+//    // when click the close btn
+//
+//    // disappear iframe window
+//    
+//    $('.ac-video-close-btn').on('click', function(event) {
+//	    
+//	    event.preventDefault();
+//	    
+//		$('.ac-video-iframe-area').removeClass('ac-video-iframe-display');
+//		
+//    });
+//
+//    // stop iframe if it is play while close the iframe window
+//
+//    $('.ac-video-close-btn').click(function(){
+//
+//        $('.ac-video-iframe').attr('src', $('.ac-video-iframe').attr('src'));
+//
+//    });
+//
+//    // when click overlay area
+//
+//     $('.ac-video-iframe-area').on('click', function(event) {
+//	    
+//	    event.preventDefault();
+//	    
+//		$('.ac-video-iframe-area').removeClass('ac-video-iframe-display');
+//		
+//    });
+//
+//	$('.ac-video-iframe-area, .ac-video-iframe').on('click', function(e){
+//	    e.stopPropagation();
+//	});
 
-    // disappear iframe window
-    
-    $('.mu-video-close-btn').on('click', function(event) {
-	    
-	    event.preventDefault();
-	    
-		$('.mu-video-iframe-area').removeClass('mu-video-iframe-display');
 		
-    });
-
-    // stop iframe if it is play while close the iframe window
-
-    $('.mu-video-close-btn').click(function(){
-
-        $('.mu-video-iframe').attr('src', $('.mu-video-iframe').attr('src'));
-
-    });
-
-    // when click overlay area
-
-     $('.mu-video-iframe-area').on('click', function(event) {
-	    
-	    event.preventDefault();
-	    
-		$('.mu-video-iframe-area').removeClass('mu-video-iframe-display');
-		
-    });
-
-	$('.mu-video-iframe-area, .mu-video-iframe').on('click', function(e){
-	    e.stopPropagation();
-	});
-
-		
-	/* ----------------------------------------------------------- */
-	/*  5. SPEAKERS SLIDEER ( SLICK SLIDER )
-	/* ----------------------------------------------------------- */
-
-		$('.mu-speakers-slider').slick({
-		  slidesToShow: 4,
-		  responsive: [
-		    {
-		      breakpoint: 768,
-		      settings: {
-		        arrows: true,
-		        slidesToShow: 3
-		      }
-		    },
-		    {
-		      breakpoint: 480,
-		      settings: {
-		        arrows: true,
-		        slidesToShow: 1
-		      }
-		    }
-		  ]
-		});
+//	/* ----------------------------------------------------------- */
+//	/*  5. SPEAKERS SLIDEER ( SLICK SLIDER )
+//	/* ----------------------------------------------------------- */
+//
+//		$('.ac-speakers-slider').slick({
+//		  slidesToShow: 4,
+//		  responsive: [
+//		    {
+//		      breakpoint: 768,
+//		      settings: {
+//		        arrows: true,
+//		        slidesToShow: 3
+//		      }
+//		    },
+//		    {
+//		      breakpoint: 480,
+//		      settings: {
+//		        arrows: true,
+//		        slidesToShow: 1
+//		      }
+//		    }
+//		  ]
+//		});
 
 		
 
@@ -200,8 +179,8 @@
 	/*  7. MOBILE MENU CLOSE 
 	/* ----------------------------------------------------------- */ 
 
-	jQuery('.mu-menu').on('click', 'li a', function() {
-	  $('.mu-navbar .in').collapse('hide');
+	jQuery('.ac-menu').on('click', 'li a', function() {
+	  $('.ac-navbar .in').collapse('hide');
 	});
 
 

@@ -1,87 +1,82 @@
 
-/*=======================================
-Template Design By MarkUps	
-Author URI : http://www.markups.io/
-========================================*/
-
-.mu-hero-overlay,
-.mu-video-overlay {
+.ac-hero-overlay,
+.ac-video-overlay {
 	background-color: #EE3268;/* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #64b3f4, #EE3268);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #64b3f4, #EE3268); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
 }
 
-.mu-primary-btn:hover,
-.mu-primary-btn:focus,
-.mu-copy-right a:hover,
-.mu-copy-right a:focus,
-.mu-send-msg-btn:hover,
-.mu-send-msg-btn:focus,
-.mu-faq-content .panel-title a:hover,
-.mu-faq-content .panel-title a:focus,
-.mu-faq-content .panel-title a[aria-expanded="true"],
-.mu-faq-content .panel-title a>span,
-.mu-menu ul li a:hover,
-.mu-menu ul li a:focus,
-.mu-single-speakers-info p,
-.mu-single-speakers-social li a:hover,
-.mu-single-speakers-social li a:focus,
-.mu-logo,
-.mu-logo:hover,
-.mu-logo:focus,
-#mu-hero .navbar-default .navbar-brand,
-.mu-navbar .mu-menu li a:hover,
-.mu-navbar .mu-menu li a:focus,
-.mu-single-event .mu-event-time {
+.ac-primary-btn:hover,
+.ac-primary-btn:focus,
+.ac-copy-right a:hover,
+.ac-copy-right a:focus,
+.ac-send-msg-btn:hover,
+.ac-send-msg-btn:focus,
+.ac-faq-content .panel-title a:hover,
+.ac-faq-content .panel-title a:focus,
+.ac-faq-content .panel-title a[aria-expanded="true"],
+.ac-faq-content .panel-title a>span,
+.ac-menu ul li a:hover,
+.ac-menu ul li a:focus,
+.ac-single-speakers-info p,
+.ac-single-speakers-social li a:hover,
+.ac-single-speakers-social li a:focus,
+.ac-logo,
+.ac-logo:hover,
+.ac-logo:focus,
+#ac-hero .navbar-default .navbar-brand,
+.ac-navbar .ac-menu li a:hover,
+.ac-navbar .ac-menu li a:focus,
+.ac-single-event .ac-event-time {
 	color: #EE3268;
 }
 
-.mu-speakers-slider .slick-next,
-.mu-speakers-slider .slick-prev,
-#mu-venue,
-.mu-popular-price .mu-price-tag,
-.mu-navbar .navbar-toggle,
-.mu-navbar .navbar-toggle:hover,
-.mu-navbar .navbar-toggle:focus,
+.ac-speakers-slider .slick-next,
+.ac-speakers-slider .slick-prev,
+#ac-venue,
+.ac-popular-price .ac-price-tag,
+.ac-navbar .navbar-toggle,
+.ac-navbar .navbar-toggle:hover,
+.ac-navbar .navbar-toggle:focus,
 .navbar-default .navbar-nav > .active > a, 
 .navbar-default .navbar-nav > .active > a:focus, 
 .navbar-default .navbar-nav > .active > a:hover,
-.mu-schedule-menu li a:hover,
-.mu-schedule-menu li a:focus,
-.mu-schedule-menu li.active a,
-.mu-schedule-menu li.active a:hover,
-.mu-schedule-menu li.active a:focus {
+.ac-schedule-menu li a:hover,
+.ac-schedule-menu li a:focus,
+.ac-schedule-menu li.active a,
+.ac-schedule-menu li.active a:hover,
+.ac-schedule-menu li.active a:focus {
 	background-color: #EE3268;
 }
 
-.mu-social-media a:hover,
-.mu-social-media a:focus {
+.ac-social-media a:hover,
+.ac-social-media a:focus {
 	border: 1px solid #EE3268;
 	color: #EE3268;
 }
 
-.mu-contact-form .form-control:focus,
-.mu-schedule-menu li a {
+.ac-contact-form .form-control:focus,
+.ac-schedule-menu li a {
 	border: 1px solid #EE3268;    
 } 
 
-.mu-send-msg-btn,
-.mu-send-msg-btn:focus,
-.mu-register-btn:hover,
-.mu-register-btn:focus,
-.mu-popular-price .mu-register-btn {
+.ac-send-msg-btn,
+.ac-send-msg-btn:focus,
+.ac-register-btn:hover,
+.ac-register-btn:focus,
+.ac-popular-price .ac-register-btn {
 	border: 1px solid #EE3268;
 	background-color: #EE3268;
 }
 
-.mu-faq-content .panel-default > .panel-heading + .panel-collapse > .panel-body {
+.ac-faq-content .panel-default > .panel-heading + .panel-collapse > .panel-body {
 	border-top-color: #EE3268;
 
 }
 
-.mu-reg-submit-btn:hover,
-.mu-reg-submit-btn:focus {
+.ac-reg-submit-btn:hover,
+.ac-reg-submit-btn:focus {
 	background-color: #EE3268;
 	border: 2px solid #EE3268;
 }

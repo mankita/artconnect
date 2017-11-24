@@ -1,2 +1,2 @@
 # artconnect
-For Artconnect Event
+For ArtConnect Event at Seattle Central College
